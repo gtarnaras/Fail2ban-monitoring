@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS failtoban;
+USE failtoban;
+CREATE TABLE IF NOT EXISTS (...);

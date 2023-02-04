@@ -1,0 +1,19 @@
+apiVersion: 1
+
+datasources:
+- name: fail2ban
+  type: mysql
+  url: http://grafana_db
+  password: test1234
+  user: grafana
+  database: failtoban
+  basicAuth: false
+  basicAuthUser:
+  basicAuthPassword:
+  withCredentials:
+  isDefault: true
+  jsonData:
+     tlsAuth: false
+     tlsAuthWithCACert: false
+  version: 1
+  editable: true
